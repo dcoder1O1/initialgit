@@ -1,3 +1,117 @@
 This is my first text file
-class Employee:
-	def (self)
+
+Commands : 
+
+Ivan Stefanov
+
+Just my notes... decided to share in case some one wants to use them:
+
+########______Terminal commands:
+
+ls - lists all of the folders 
+
+ls -la - lists all of the files 
+
+cd .. - returns one dir back 
+
+cd - enters a directory
+
+. - just install in the current directory 
+
+########______On initial install:
+
+	git --version - checks the version of the installed locally git
+
+	git config --global user.name "Your Name" - sets up the name of the user 
+
+	git config --global user.email "yourname@somemail.eu" - sets up the mail of the user
+
+	git config --list - lists all the git configurations
+
+########______For help on commands:
+
+	git help <verb> (e.g. git help config) OR 
+
+	git <verb> --help 
+
+########______For initializing the project:
+
+	git init - initializes the git repo in the current folder
+
+	touch .gitignore - creates a git ignore file
+
+	git status - check working tree - both on the git and on local 
+
+########______Add files:
+
+	git add -A - adds all of the files for commiting
+	
+	remember - git status - to check the state of the repo 
+
+########______Remove files: 
+
+	git reset - removes files to be commited 
+
+	git reset somefile.js - removes somefile.js from the commit preparation
+
+########______Committing:
+
+	git commit -m "This is the commit message" - -m is used to add message
+
+########______Check log:
+
+	git log - renders commit ids, authors, dates
+
+########______Clone a remote repo:
+
+	git clone <url> <where to clone>
+
+########______View info about the repo:
+
+	git remote -v - lists infor about the repo
+
+	git branch -a - lists all of the branches
+
+########______View changes:
+
+	git diff - shows the difference made in the files
+
+########______Pull before push ALWAYS:
+
+	git pull origin master
+
+########______THEN PUSH:
+
+	git push origin master - <origin> name of remote repo <master> the branch that we push to 
+
+########______First time push of the branch:
+
+	git push -u origin <name of the branch> - -u coordinates the two branches (local and on server)
+
+########______Create a branch:
+
+	git branch <name of the branch>
+
+########______Checkout a branch:
+
+	git checkout <name of the branch>
+
+########______Merge a branch:
+
+	git checkout master
+
+	git pull origin master
+
+	git branch --merged - see which branches are merged 
+
+	git merge <name of the branch you want to merge>
+
+	git push origin master 
+
+########______Delete a branch:
+
+	git branch -d <name of the branch> - this deletes it locally!!!
+
+	git branch -a - check the repo branches 
+
+	git push origin --delete <name of the branch> - this deletes it from the repo! 

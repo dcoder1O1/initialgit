@@ -1,6 +1,6 @@
 This is my first text file
 
-Commands : 
+Commands :
 
 Ivan Stefanov
 
@@ -8,21 +8,21 @@ Just my notes... decided to share in case some one wants to use them:
 
 ########______Terminal commands:
 
-ls - lists all of the folders 
+ls - lists all of the folders
 
-ls -la - lists all of the files 
+ls -la - lists all of the files
 
-cd .. - returns one dir back 
+cd .. - returns one dir back
 
 cd - enters a directory
 
-. - just install in the current directory 
+. - just install in the current directory
 
 ########______On initial install:
 
 	git --version - checks the version of the installed locally git
 
-	git config --global user.name "Your Name" - sets up the name of the user 
+	git config --global user.name "Your Name" - sets up the name of the user
 
 	git config --global user.email "yourname@somemail.eu" - sets up the mail of the user
 
@@ -30,9 +30,9 @@ cd - enters a directory
 
 ########______For help on commands:
 
-	git help <verb> (e.g. git help config) OR 
+	git help <verb> (e.g. git help config) OR
 
-	git <verb> --help 
+	git <verb> --help
 
 ########______For initializing the project:
 
@@ -40,17 +40,17 @@ cd - enters a directory
 
 	touch .gitignore - creates a git ignore file
 
-	git status - check working tree - both on the git and on local 
+	git status - check working tree - both on the git and on local
 
 ########______Add files:
 
 	git add -A - adds all of the files for commiting
-	
-	remember - git status - to check the state of the repo 
 
-########______Remove files: 
+	remember - git status - to check the state of the repo
 
-	git reset - removes files to be commited 
+########______Remove files:
+
+	git reset - removes files to be commited
 
 	git reset somefile.js - removes somefile.js from the commit preparation
 
@@ -82,7 +82,7 @@ cd - enters a directory
 
 ########______THEN PUSH:
 
-	git push origin master - <origin> name of remote repo <master> the branch that we push to 
+	git push origin master - <origin> name of remote repo <master> the branch that we push to
 
 ########______First time push of the branch:
 
@@ -102,16 +102,19 @@ cd - enters a directory
 
 	git pull origin master
 
-	git branch --merged - see which branches are merged 
+	git branch --merged - see which branches are merged
 
 	git merge <name of the branch you want to merge>
 
-	git push origin master 
+	git push origin master
 
 ########______Delete a branch:
 
 	git branch -d <name of the branch> - this deletes it locally!!!
 
-	git branch -a - check the repo branches 
+	git branch -a - check the repo branches
 
-	git push origin --delete <name of the branch> - this deletes it from the repo! 
+	git push origin --delete <name of the branch> - this deletes it from the repo!
+
+##################################### Basic Commands Completed #####################################
+
